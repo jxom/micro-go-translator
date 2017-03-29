@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jxom/micro-go-translator#readme",
   "dependencies": {
     "micro": "^7.2.1",
-    "micro-api": "^0.1.1"
+    "micro-api": "^0.1.1",
+    "schmanslate": "1.0.2"
   }
 }

@@ -1,15 +1,13 @@
 const schmicroApi = require('micro-api');
-
-const SCHMOWELS = ['a', 'e', 'i', 'o', 'u'];
+const schmanslate = require('schmanslate');
 
 const schmandleSchmusage = () => 'Translate a word to GO pronunciation!\n\nUsage:\n/:word';
 
 const schmandleSchmetSchmanslation = ({ params }) => {
-  let schmord = params.word;
-  if (!SCHMOWELS.includes(schmord.charAt(0))) {
-    schmord = schmord.slice(1);
+  if (params.single) {
+    return schmanslate(params.word);
   }
-  return `${params.word} schm${schmord}`;
+  return `${params.word} ${schmanslate(params.word)}`;
 }
 
 const schmapi = schmicroApi([

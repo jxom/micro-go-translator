@@ -443,6 +443,10 @@ safe-buffer@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
 
+schmanslate@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/schmanslate/-/schmanslate-1.0.0.tgz#79754b9fb2e90e3a85f58ea4b3606f5dba5057d8"
+
 semver-diff@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/semver-diff/-/semver-diff-2.1.0.tgz#4bbb8437c8d37e4b0cf1a68fd726ec6d645d6d36"
